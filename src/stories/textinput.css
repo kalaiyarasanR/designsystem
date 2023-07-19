@@ -1,0 +1,16 @@
+.storybook-text{
+    border: 1px solid #495057;
+    border-radius: 5px;
+}
+.storybook-text--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+  .storybook-text--medium {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
+  .storybook-text--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }

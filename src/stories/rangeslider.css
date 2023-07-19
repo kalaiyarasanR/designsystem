@@ -1,0 +1,17 @@
+.rc-slider-handle{
+    border: 2px solid #6A2BF3;
+}
+.studio-slidervalue{
+    background-color: #f3f5f7;
+    max-width: 50px;
+    border-color: #f3f5f7;
+    text-align: center;
+}
+.rc-slider-rail, .rc-slider-track {
+    height: 10px;
+
+}
+.rc-slider-handle {
+    width: 20px;
+    height: 20px;
+}

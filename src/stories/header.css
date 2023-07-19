@@ -1,0 +1,72 @@
+.storybook-header {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.storybook-header svg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.storybook-header h1 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  margin: 6px 0 6px 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.storybook-header button + button {
+  margin-left: 10px;
+}
+
+.storybook-header .welcome {
+  color: #333;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.commonheader-navs{
+  padding-left: 5px !important;
+  padding-right: 5px;
+}
+.commonheader-nav-link-stack {
+  background: #f3f5f7;
+  border-radius: 4px;
+  height: 40px;
+  margin-left: 80px;
+}
+.navigationtabcs{
+  align-items: center;
+  color: #000;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 400;
+  height: 32px;
+  justify-content: center;
+  letter-spacing: .02em;
+  line-height: 17px;
+  padding: 3px 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.navigationtabcs.active{
+  align-items: center;
+  background-color: #fff!important;
+  border-radius: 4px;
+  box-shadow: 2.66667px 2.66667px 5.33333px rgba(30,32,34,.05);
+  color: #000;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 400;
+  height: 32px;
+  justify-content: center;
+  letter-spacing: .02em;
+  line-height: 17px;
+  text-align: center;
+  text-decoration: none;
+}
